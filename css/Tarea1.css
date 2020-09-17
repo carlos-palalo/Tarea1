@@ -1,6 +1,8 @@
 header{
     text-align: center;
-    background-image: url("imagenes\fondo1.jpg");
-    height: 200px;
+    background-image: url("../imagenes/fondo1.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
