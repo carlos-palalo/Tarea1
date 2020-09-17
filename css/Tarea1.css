@@ -8,7 +8,9 @@ header{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: 110,0,0, 50;
+    /*background-color: rgba(0,0,0,0.8);*/
+    
+    /*filter: brightness(0.4);*/
     
     height: 300px;
     
