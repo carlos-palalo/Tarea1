@@ -23,16 +23,21 @@ header{
 header img{
     margin-top: 30px;
 }
-
+.peque{
+    font-size: smaller;
+}
 .verde{
     background-color: teal;
     color: white;
-    
-
-    width: 400px;
-    position: fixed;
+    margin: auto;
+    margin-top: 20px;
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .verde p{
+    font-size: small;
+    font-weight: bold;
     margin: 0px;
 }
