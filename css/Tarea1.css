@@ -8,23 +8,31 @@ header{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+
     /*background-color: rgba(0,0,0,0.8);*/
     
-    /*filter: brightness(0.4);*/
     
-    height: 300px;
+    height: 225px;
     
     width: 100%;
     left: 0;
     top: 0;
-    position: fixed;
+    /*position: fixed;*/
+}
+
+section{
+    background-color: whitesmoke;
+    font-family: Times, 'Times New Roman', serif;
+    color: teal;
 }
 
 header img{
     margin-top: 30px;
 }
+
 .peque{
-    font-size: smaller;
+    font-size: x-small;
 }
 .verde{
     background-color: teal;
@@ -37,7 +45,47 @@ header img{
 }
 
 .verde p{
-    font-size: small;
+    font-size: smaller;
     font-weight: bold;
     margin: 0px;
+}
+
+.f1 img, .f2 img{
+    width: 350px;
+    padding-left: 10px;
+}
+
+.f1{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.f3 img, .f4 img{
+    width: 250px;
+}
+
+.f3{
+    text-align: right;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+th:first-child{
+    width: 35%;
+}
+
+td:nth-child(1){
+    width: 250px;
+}
+
+th, td{
+    border: none;
+}
+
+.tit{
+    text-align: center;
 }
