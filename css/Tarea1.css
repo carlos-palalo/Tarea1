@@ -95,16 +95,14 @@ footer{
     background-image: url("../imagenes/fondo2.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    height: 20%;
+    background-size: cover;   
     
     width: 100%;
     left: 0;
     bottom: 0;
 
     color: yellowgreen;
-    padding: 5px 0px;
+    padding: 3px 0px;
 
 }
 
